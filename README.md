@@ -1,16 +1,13 @@
-# guide_syncfusion
+# Syncfusion in Flutter
 
-A new Flutter project.
+A step by step app to learn and analyze how Syncfusion works in FLutter.
 
-## Getting Started
+This is great if want to display a graphic from some data that you are receiving at a high speed. So you don't update the graphic every time you receive a new value, you update the graphic by a timer. For example: You add and remove X values each 50ms (for 20frames/s) or  each 16ms (for 60frames/s).
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Add a single value at the chart
+- Add a multiple values at the chart
+- Remove a value at the beginning of the chart
+- Remove a multiple values at the beginning of the chart
+- Remove a value at the end of the chart
+- Remove multiple values and add multiple values at the same time
+- A timer to every amount of ms, add new values and remove old ones, to have a nice looking scrolling with a good performance.
